@@ -1,0 +1,27 @@
+$div_colour: limegreen
+    
+div.container
+    height: 300px
+    background-color: $div_colour
+    border: 1px solid black
+    width: 100%
+    display: grid
+    grid-template-columns: 3fr 1fr
+    grid-gap: 2em
+
+    .left
+        background-color: purple
+    
+    .right
+        display: flex
+        flex-direction: column
+
+        div
+            background-color: yellow
+            // border: 1px solid red
+            width: 100%
+            height: 100%
+
+
+
+    
